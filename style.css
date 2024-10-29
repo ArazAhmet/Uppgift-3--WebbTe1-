@@ -1,3 +1,12 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    display: block;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -38,4 +47,20 @@ div a:hover:not(.active) {
 
 .active {
     background-color: #04AA6D;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff;
+    text-align: center;
+    width: 100%; 
+    font-family: Arial, sans-serif; 
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    margin: 5px 0;
 }
