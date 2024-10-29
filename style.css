@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    align-items: center;
+    background-color: #333;
+}
+
+#ps5, #xbox, #Nintendo Switch{
+    color: white;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    list-style-type: none;
+    background-color: #333;
+}
+
+div a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+    transform: scale(1);
+} 
+
+div a:hover {
+    background-color: #111;
+    transform: scale(1.2);
+}
+
+div a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
